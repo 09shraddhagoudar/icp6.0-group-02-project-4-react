@@ -11,6 +11,7 @@ function Navbar() {
             <Link to="/services" className="text-white text-decoration-none mx-4">Services</Link>
             <Link to="/about" className="text-white text-decoration-none mx-4">About</Link>
             <Link to="/contact" className="text-white text-decoration-none mx-4">Contact</Link>
+            <Link to="/login" className="text-white text-decoration-none mx-4">Login</Link>
             <Link to="/bookTour" className="text-white text-decoration-none mx-4">BookTour</Link>
         </div>
     </div>
