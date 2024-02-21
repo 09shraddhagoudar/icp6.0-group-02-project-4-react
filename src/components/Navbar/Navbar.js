@@ -8,6 +8,7 @@ function Navbar() {
         <div className="fs-3 fw-bold">Harshal</div>
         <div className="">
             <Link to="/" className="text-white text-decoration-none mx-4">Home</Link>
+            <Link to="/hillforts" className="text-white text-decoration-none mx-4">Hill Forts</Link>
             <Link to="/services" className="text-white text-decoration-none mx-4">Services</Link>
             <Link to="/about" className="text-white text-decoration-none mx-4">About</Link>
             <Link to="/contact" className="text-white text-decoration-none mx-4">Contact</Link>
