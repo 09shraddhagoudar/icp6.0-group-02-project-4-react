@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className="Navbar bg-secondary fs-4 d-flex justify-content-between text-white">
-        <div className="fs-3 fw-bold">Harshal</div>
-        <div className="">
+    <div className="Navbar  fs-4 d-flex justify-content-between text-white">
+        <div className="fs-3 fw-bold">Fortress Tours </div>
+        <div className="nabar-menu">
             <Link to="/" className="text-white text-decoration-none mx-4">Home</Link>
             <Link to="/hillforts" className="text-white text-decoration-none mx-4">Hill Forts</Link>
             <Link to="/services" className="text-white text-decoration-none mx-4">Services</Link>

@@ -1,4 +1,14 @@
 .Navbar{
     padding: 12px 150px;
     align-items: center;
+    background-color: #8f2407;
+    color: white;
+}
+.text-white{
+    font-weight: 200;
+
+}
+.text-white:hover{
+    color: blue;
+   
 }
