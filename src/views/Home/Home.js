@@ -2,8 +2,8 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import "./Home.css";
 import Image1 from "./image1.jpg";
-import Image2 from "./image2.jpg";
-import Image3 from "./image3.png";
+import Image2 from "./shaniwarwada.png";
+import Image3 from "./lohagad.png";
 
 
 
@@ -19,6 +19,7 @@ function Home() {
           <h1>Welcome to Fort Tour</h1>
           <p>Explore the history and beauty of ancient forts</p>
         </header>
+        
         <h1 className='subheading'>Must Visit This...💜💜</h1>
         <div className="card-row">
 
@@ -26,7 +27,7 @@ function Home() {
             <img src={Image1} alt="purandar" />
             <h2>Purandar</h2>
             <p>Purandar Fort is known as the birthplace of Chhatrapati Sambhaji Maharaj, the son of Chhatrapati Shivaji Maharaj. The fort 
-              of Purandhar stands at 4,472 ft  above the sea level in the Western Ghats.</p>
+              of Purandhar stands at 4,472 ft.</p>
             <button>Read More</button>
           </div>
 
@@ -62,14 +63,18 @@ function Home() {
           </div>
 
           <div className="card">
-            <img src={Image3} alt="maharashtra fort" />
+            <img src={Image3} alt=" Panhala  fort" />
             <h2>Panhala Fort</h2>
             <p>One of the most beautiful forts of Maharashtra, Panhala Fort, is located in the Sahyadri mountain range, over a pass that 
-              connects Bijapur in central Maharashtra. Panhala is located 20Km away from Kolhapur.</p>
+              connects Bijapur in central Maharashtra. Panhala is located 20Km away from Kolhapur. PANHALa fot is popular fort.</p>
             <button>Read More</button>
           </div>
         </div>
+     <hr/>
+        <h2 className='subheading2'>"Discover the Past, Explore the Present, Build Your Future: Fort Tours – Where History and Adventure Unite!"</h2>
+     <hr/>
 
+      
       </div>
       <Footer />
     </div>
