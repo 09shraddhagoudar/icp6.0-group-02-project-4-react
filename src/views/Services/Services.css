@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.services-main-container{
+    margin-top: 50px;
+    padding: 5rem 0;
+    }
+
+    .services-main-container .main-heading{
+margin: 3rem 0;
+}
+
+.work-container-subdiv{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.16) ;
+
+}
+
+.services-main-container .work-container-subdiv .fontawesome-style{
+    text-align: left;
+    margin: 2rem 0;
+}
+
+@media (min-width:1400px){
+    .services-main-container{
+        flex:0 0 auto;
+        width: 30% !important;
+        margin: auto;
+    } 
+}
+
+@media (min-width:1400px){
+    .services-container .col-lg-4{
+        flex:0 0 auto;
+        width: 30% !important;
+        margin: 2.5rem auto;
+    } 
+}
