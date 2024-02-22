@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function FortsTypeCard({id,imge,title,description,location}) {
   return (
-    <div className='w-35 shadow border border-dark-subtle text-centerrounded my-4 card-col'>
+    <div className='w-35 shadow border border-dark-subtle text-centerrounded m-4 card-col'>
         <img src={imge} className='w-100 border'/>
         <div className='container'>
             <p className='fs-5 fw-semibold my-2'>{title.substring(0,15)}{title.length>15?"...":null}</p>
