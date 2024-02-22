@@ -1,3 +1,5 @@
+const HEAD_TITLE = "Some Hill Forts in Maharashtra"
+
 const Hill_Forts = [
     {
         id: 1,
@@ -42,9 +44,75 @@ const Hill_Forts = [
         location:"Khandala, Maharashtra, India"
     },
 ]
-const HEAD_TITLE = "Some Hill Forts in Maharashtra"
+
+const Explore_TITLE = "Explore"
+const Explore = [
+    {
+        id: 1,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/310/original/1553508482_shutterstock_1180915588.jpg?w=753&h=450&dpr=1.0",
+        title:"SINHAGAD FORT",
+    },
+    {
+        id: 2,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/330/original/1553511158_shutterstock_663979489.jpg?w=753&h=450&dpr=1.0",
+        title:"RAJGAD FORT",
+    },
+    {
+        id: 3,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/311/original/1553508706_shutterstock_1197006376.jpg?w=753&h=450&dpr=1.0",
+        title: "PRATAPGAD FORT",
+    },
+    {
+        id: 4,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/325/original/1553510675_shutterstock_1282571473.jpg?w=753&h=450&dpr=1.0",
+        title:"PURANDAR FORT",
+    },
+    {
+        id: 5,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/321/original/1553510082_Korigad_Fort.png?w=753&h=450&dpr=1.0",
+        title:"KORIGAD FORT",
+    },
+    {
+        id: 6,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/300/original/1553507239_shutterstock_707946589.jpg?w=753&h=450&dpr=1.0",
+        title:"LOHAGAD FORT",
+    },
+    {
+        id: 7,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/310/original/1553508482_shutterstock_1180915588.jpg?w=753&h=450&dpr=1.0",
+        title:"SINHAGAD FORT",
+    },
+    {
+        id: 8,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/330/original/1553511158_shutterstock_663979489.jpg?w=753&h=450&dpr=1.0",
+        title:"RAJGAD FORT",
+    },
+    {
+        id: 9,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/311/original/1553508706_shutterstock_1197006376.jpg?w=753&h=450&dpr=1.0",
+        title: "PRATAPGAD FORT",
+    },
+    {
+        id: 10,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/325/original/1553510675_shutterstock_1282571473.jpg?w=753&h=450&dpr=1.0",
+        title:"PURANDAR FORT",
+    },
+    {
+        id: 11,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/321/original/1553510082_Korigad_Fort.png?w=753&h=450&dpr=1.0",
+        title:"KORIGAD FORT",
+    },
+    {
+        id: 12,
+        imge:"https://media2.thrillophilia.com/images/photos/000/149/300/original/1553507239_shutterstock_707946589.jpg?w=753&h=450&dpr=1.0",
+        title:"LOHAGAD FORT",
+    },
+]
+
 
 export{
     Hill_Forts,
-    HEAD_TITLE
+    HEAD_TITLE,
+    Explore_TITLE,
+    Explore
 }
