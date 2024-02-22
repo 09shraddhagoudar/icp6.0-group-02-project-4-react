@@ -20,3 +20,16 @@
    width: 830px;
    margin-top: 7%;
 }
+.img-con{
+    overflow-x: scroll;
+}
+.img-con::-webkit-scrollbar{
+    height: 5px;
+}
+.img-con::-webkit-scrollbar-track {
+    border-radius: 100px;
+}
+.img-con::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: #ff004f;
+}
