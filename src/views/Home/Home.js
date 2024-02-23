@@ -19,13 +19,10 @@ function Home() {
 
     <div>
       <Navbar />
-      <div className="home-page">
         <header className="head">
-
-
           <h1>Welcome to Fort Tour</h1>
           <p>Explore the history and beauty of ancient forts</p>
-          <button className='explore-more-btn'>Explore..</button>
+          <button className='explore-more-btn d-block mx-auto'>Explore..</button>
         </header>
 
         <h1 className='subheading'>Must Visit This...💜💜</h1>
@@ -71,18 +68,17 @@ function Home() {
         </div>
         <div className='last-container'>
           <h3>Why Choose Us ??? </h3>
-         <div className='sub-last-container'>
-         <img src={Image7} alt="fun with us" className='service-img' />
-         <img src={Image8} alt="we improve your Knowledge" className='service-img' />
-         <img src={Image9} alt="maharashtra fort" className='service-img' />
-         <img src={Image10} alt="maharashtra fort" className='service-img' />
-         </div>
-         <h2>Explore at your own pace with self-guided tours, complete with audio guides and interactive maps for a personalized adventure.</h2>
+          <div className='sub-last-container'>
+            <img src={Image7} alt="fun with us" className='service-img' />
+            <img src={Image8} alt="we improve your Knowledge" className='service-img' />
+            <img src={Image9} alt="maharashtra fort" className='service-img' />
+            <img src={Image10} alt="maharashtra fort" className='service-img' />
+          </div>
+          <h2>Explore at your own pace with self-guided tours, complete with audio guides and interactive maps for a personalized adventure.</h2>
 
         </div>
 
 
-      </div>
       <Footer />
     </div>
   )
