@@ -10,6 +10,8 @@ import Login from './views/Login/Login';
 import BookTour from './views/BookTour/BookTour';
 import HillForts from './views/HillForts/HillForts';
 import HillFortsMore from './views/HillFortsMore/HillFortsMore';
+import SeaForts from './views/SeaForts/SeaForts';
+import ForestForts from './views/ForestForts/ForestForts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
   {
     path: "/hillfortsmore",
     element: <HillFortsMore/>
+  },
+  {
+    path: "/seaforts",
+    element: <SeaForts/>
+  },
+  {
+    path: "/forestforts",
+    element: <ForestForts/>
   },
   {
     path: "/services",
