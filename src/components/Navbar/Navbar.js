@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg bg-harshal p-2 border border-bottom border-black shadow-sm">
         <div class="container-fluid mx-5">
-            <a class="navbar-brand ms-md-5 ms-md-0 fs-2" href="#">Foodzie</a>
+            <a class="navbar-brand ms-md-5 ms-md-0 fs-2" href="#">Heritage Horizon</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

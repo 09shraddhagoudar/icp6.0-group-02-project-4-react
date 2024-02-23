@@ -12,6 +12,7 @@ import HillForts from './views/HillForts/HillForts';
 import HillFortsMore from './views/HillFortsMore/HillFortsMore';
 import SeaForts from './views/SeaForts/SeaForts';
 import ForestForts from './views/ForestForts/ForestForts';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
