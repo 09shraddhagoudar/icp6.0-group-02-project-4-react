@@ -1,6 +1,6 @@
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import { Hill_Forts} from './../HillForts/config';
+import { Hill_Forts} from './../ForestForts/config';
 import FortsMoreTypeCard from '../../components/FortsMoreTypeCard/FortsMoreTypeCard';
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 

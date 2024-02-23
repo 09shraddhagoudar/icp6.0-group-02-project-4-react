@@ -4,11 +4,17 @@ import './ForestForts.css';
 import { Hill_Forts, HEAD_TITLE, Explore_TITLE, Explore } from './config';
 import FortsTypeCard from '../../components/FortsTypeCard/FortsTypeCard';
 import ExploreCard from '../../components/ExploreCard/ExploreCard';
+import HillFortsImage from './../HillForts/oth-image.jpg';
+import SeaFortsImage from './../SeaForts/seaimage.jpg';
+import ForestFortsImage from './forest-image.jpg';
+import { Link } from 'react-router-dom'
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 
 function ForestForts() {
   return (
     <div>
+      <ScrollToTop/>
       <Navbar />
       <div className='forest-head'>
         <div className='container'>
@@ -32,7 +38,7 @@ function ForestForts() {
           <div className='d-flex justify-content-around flex-wrap my-4'>{
             Hill_Forts.map((project, index) => {
               const { id, imge, title, description, location } = project;
-              return (<FortsTypeCard id={id} imge={imge} title={title} description={description} location={location} key={index} />);
+              return (<FortsTypeCard id={id} imge={imge} title={title} description={description} location={location} key={index} link="/forestfortsmore" />);
             })
           }
           </div>
@@ -43,11 +49,45 @@ function ForestForts() {
         <div className='container'>
           <h1 className='font fw-semibold m-3 text-center'>{Explore_TITLE}</h1>
           <div className='d-flex img-con p-4 m-2'>{
-            Explore.map((img, index) => {
+            Hill_Forts.map((img, index) => {
               const { id, imge, title } = img;
-              return (<ExploreCard id={id} imge={imge} title={title} key={index} />);
+              return (<ExploreCard id={id} imge={imge} title={title} key={index} link="/forestfortsmore"/>);
+            })}{
+            Hill_Forts.map((img, index) => {
+              const { id, imge, title } = img;
+              return (<ExploreCard id={id} imge={imge} title={title} key={index} link="/forestfortsmore" />);
+            })}{
+            Hill_Forts.map((img, index) => {
+              const { id, imge, title } = img;
+              return (<ExploreCard id={id} imge={imge} title={title} key={index} link="/forestfortsmore" />);
             })
           }
+          </div>
+        </div>
+      </div>
+
+      <div className='card-container mb-5'>
+        <div className='container'>
+          <h1 className='font fw-semibold mt-5 mb-4 text-center'>Other Types Of Forts</h1>
+          <div className='d-flex justify-content-around flex-wrap'>
+            <Link to="/hillforts" >
+              <div className='position-relative h-100 shadow-sm'>
+                <img src={HillFortsImage} className='oth-img border border-black'/>
+                <p className='text-white fw-semibold fs-1 position-absolute top-50 start-50 translate-middle'>Hill Forts</p>
+              </div>
+            </Link>
+            <Link to="/seaforts" >
+              <div className='position-relative h-100 shadow-sm'>
+                <img src={SeaFortsImage} className='oth-img border border-black'/>
+                <p className='text-white fw-semibold fs-1 position-absolute top-50 start-50 translate-middle'>Sea Forts</p>
+              </div>
+            </Link>
+            <Link to="/seaforts" >
+            <div className='position-relative h-100 shadow-sm'>
+              <img src={ForestFortsImage} className='oth-img border border-black'/>
+              <p className='text-white fw-semibold fs-1 position-absolute top-50 start-50 translate-middle'>Forest Fort</p>
+            </div>
+            </Link>
           </div>
         </div>
       </div>
