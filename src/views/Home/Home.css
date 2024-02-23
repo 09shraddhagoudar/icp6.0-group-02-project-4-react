@@ -129,6 +129,7 @@
     width: 340px;
     transition: 0.5s;
     box-shadow: 2px 2px 2px  grey;
+    border: 1px solid black;
   }
   .service-card{
      background-color: #da461d;
@@ -151,6 +152,10 @@
     height: 200px;
     width: 300px;
     
+
+  }
+  .img-service:hover{
+    border: 1px solid white;
   }
   .learn-more-btn{
     margin-top:20px ;
@@ -185,6 +190,10 @@
   .service-img{
     height: 200px;
     width: 200px;
+  }
+  .service-img:hover{
+    border-radius: 20px;
+ border: 1px solid white;
   }
   .last-container h2{
     margin-top: 50px;
