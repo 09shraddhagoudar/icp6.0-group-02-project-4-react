@@ -1,118 +1,76 @@
-const HEAD_TITLE = "Some Hill Forts in Maharashtra"
+const HEAD_TITLE = "Some Forest Forts in Maharashtra"
 
 const Hill_Forts = [
     {
         id: 1,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/310/original/1553508482_shutterstock_1180915588.jpg?w=753&h=450&dpr=1.0",
-        title:"SINHAGAD FORT",
-        description:"Literally meaning the Lion Fort, Sinhagad Fort is one of the most famous historical places to visit in Pune which is believed to have been built about 2000 years ago. It is getting more beautiful as it is ageing and rain adds more to its beauty. Being at its best, a hot cup of coffee with your loved one amidst the mist surrounding this magnificent heritage in rain would be perfect.Sinhagad or Kondana is a pride of the southwestern region of Pune. This fort was the one to support Maharashtra during the ancient battles. Sinhagad battle of 1671 is the significant one. Bhuleshwar range of the great Sahyadris is the home to this historical monument. The fortress has an elevation of around 1312 m above the sea level. Sinhagad has got its own breakneck slopes to protect it from all sides.There are two entrances to this fort – one in the north-eastern region (Pune Darwaza) and another one towards the southeastern part (Kalyan Darwaza). The authenticity and the richness of Sinhagad fortress date back to around 1000 years. This is evident from the carvings present on the walls of Kaundinya Eshwar temple there. Sinhagad is valued as a true sightseeing heritage.To begin your sightseeing adventure, you have Rajaram’s tomb which is worth a visit. The fortress displays some of the adorable monoliths of Tanaji Malusare – one of the efficient safe-keepers of the fort from Shivaji Maharaj’s era. Besides these crucial displays, the fortress has got its own military depot, a Kali temple, breweries, and a Hanuman effigy.Pune Darwaza, Kalyan Darwaza, Tilak Bungalow, Hawa Point, Kade Lot, Amruteshwar Temple, Tanaji Samadhi and Memorial raises the elegance of this fortress even today.Summiting the fortress offers some stunning views of the Khadakwasla Dam from one end; while from its other side, you can see glimpses of Torna Fort.",
+        imge:"https://static.wixstatic.com/media/f56bed_e033ce5bfcd844f7b08d186dc7044d17~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f56bed_e033ce5bfcd844f7b08d186dc7044d17~mv2.jpg",
+        title:"Shivneri Fort",
+        description:"Shivneri Fort is one of the most illustrious forts in Maharashtra. The fort was the birthplace of Chhatrapati Shivaji Maharaj, the greatest Maratha ruler and one of the most renowned emperors in India. The fort is a 17th-century fortification and Chhatrapati Shivaji Maharaj was born at the fort in 1630. This fort originally belonged to the Yadavas of Devagiri. It was then passed on to the Bahmani Sultanate and then to the Ahmadnagar Sultanate. In 1595, Maloji Bhosle, the grandfather of Shivaji Bhosale, was given the fort by the Admadnagar Sultan, Bahadur Nizam Shah. Shivneri Fort has a triangular shape and has 7 well-defended spiral gates. At the centre of the fort is a water pond known as Badami Talav. At the south of the pond are the statues of Shivali and Jijabai. The trek to the fort is a scenic journey, surrounded by forests and the goodness of nature. Some steps lead to the fort and it is beautifully laid. There are two water springs at the fort, Ganga and Yamuna, that flow throughout the year. The fort is located in Junnar, which is easily accessible by Pune and Mumbai by road. The fort is open from 5:30 AM to 7:00 PM. The entry fee is ₹5. ",
         location:"Pune, Maharashtra, India"
     },
     {
         id: 2,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/330/original/1553511158_shutterstock_663979489.jpg?w=753&h=450&dpr=1.0",
-        title:"RAJGAD FORT",
-        description:"Formerly known as Murudev, this hill fort is located in Pune District, and used to be the capital of the Maratha Empire for about 26 years under the reign of Chhatrapati Shivaji Maharaj. This fort was built using the treasures discovered from the nearby Torna Fort, and boasts to have hosted Shivaji Maharaj for the highest number of days.Resting 1,376 meters above sea level, the ruins of this fort include water cisterns, caves, and palaces. Built on a hill called Mumbadevi Dongar- meaning the mountain of the Goddess Murumba- Rajgad Fort has seen a number of historical events like the death of Shivaji’s queen Saibai, and the birth of his son Rajaram Chhatrapati.This fort is also a popular monsoon trek destination, with visitors preferring to stay the night since the fort is too big to be explored in just a few hours. The temple of Padmavati at the top of the fort often serves as a lodging place for trekkers.",
+        imge:"https://static.wixstatic.com/media/b4110a_39f27f8eefd94083ac55a82dc640e266~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_39f27f8eefd94083ac55a82dc640e266~mv2.jpg",
+        title:"Raigad Fort",
+        description:"Raigad Fort is considered to be one of the strongest forts in Maharashtra. The fort was earlier known as Rairi Fort and was the seat of Maratha Clan Shirke in the 12th Century.  Chhatrapati Shivaji Maharaj had made this fort a capital in 1674 when he was crowned as the king of the Maratha Kingdom, which later became the Maratha Empire. Shivaji Maharaj had captured the fort from Rajchandraji More in 1659. In 1662, he changed the name of the fort to Raigad Fort and added more structures to it. Shivaji Maharaj died in 1680 and was cremated at the fort. The fort was then shortly taken over by the Mughals. The fort was also called the “Gibraltar of the East” by the Europeans.The fort's beauty and architecture attract many tourists. It is one of the best tourist attractions in Maharashtra and offers a spectacular view of the Sahyadri hills. The fort is a favourite among trekkers due to the difficult trek and the view it offers. If you love adventure, then the fort is definitely for you! The Fort is open from 8 AM To 5 PM and the entry fee is ₹20. ",
         location:"Nasrapur, Maharashtra, India"
     },
     {
         id: 3,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/311/original/1553508706_shutterstock_1197006376.jpg?w=753&h=450&dpr=1.0",
-        title: "PRATAPGAD FORT",
-        description:"Literally meaning ‘Fort of Valour’, this fort is significant due to the Battle of Pratapgad that happened here. Rising at 1,080 meters above sea level, this fort overlooks the villages of Kinesvar and Par, and boasts of housing four lakes within the fort complex which often overflow during the monsoon months and it is one of the best forts in Maharashtra. The watchtower located beside the main entrance or the Maha Darwaja, gives mesmerizing views of the surrounding sheer cliffs that drop to 250 meters below!",
+        imge:"https://static.wixstatic.com/media/b4110a_2726eab56afc45bbba0647b4bf676de1~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_2726eab56afc45bbba0647b4bf676de1~mv2.jpg",
+        title: "Rajmachi Fort",
+        description:"Rajmachi Fort is located amidst the Sahyadri hills and is considered to be one of the most picturesque forts in Maharashtra. The route to the Rajmachi fort is blessed with waterfalls, deep gorges, quaint villages, streams and valleys. If you are an adventurer, painter or photographer, then the fort is the one for you! There are two routes to get to the fort - Lonavala or Kondivde or Kondhane village in Karjat Taluka. The Lonavala route is a straight walk with only a few ups and downs. From the Kondivde or Kondhane Village, the route to the fort is a steep climb. There are two fortified peaks at Rajmachi fort - Shrivardhan and Manaranjan. The view is magnificent and it’s best to visit during the monsoon season when the Sahyadris are at their best. The fort also has several temples, caves, reservoirs - giving a glimpse into the lives of the Marathas. The Entry is free and the timings are from 8 AM to 6 PM. ",
         location:"Rajpuri, Maharashtra, India"
     },
     {
         id: 4,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/325/original/1553510675_shutterstock_1282571473.jpg?w=753&h=450&dpr=1.0",
-        title:"PURANDAR FORT",
-        description:"Situated deep within the beautiful Sahyadris of the Western Ghats, rising at an elevation of 1,387 meters above sea level, Purandar Fort is an impressive fort, known to be the birthplace of Sambhaji, the son of Chhatrapati Shivaji Maharaj.Purandar Fort also has a smaller, twin fort named Vajragad or Rudramal, which is located towards the east of the main fort. A popular hub amongst paragliders and trekkers, Purandar Fort is also often used by the National Defense Academy for training purposes.With two distinct levels, the lower level is home to several temples, and even a church dating back to the 19th century. From the top of the fort one can get a breathtaking view of the surrounding forest land, as well as the twin fort, Vajragad.",
+        imge:"https://static.wixstatic.com/media/b4110a_82c1dad7227a4e9b8c9eb5ef214c0c32~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_82c1dad7227a4e9b8c9eb5ef214c0c32~mv2.jpg",
+        title:"Pratapgad Fort ",
+        description:"Pratapgad is just 24 kilometres away from Mahabaleshwar and is a fort in Maharashtra with historical significance. The Battle Of Pratapgad was fought on 10 November 1659 between Shivaji Maharaj and Bijapur Sultanate General Afzal Khan. The Marathas won the battle. There are many lakes within the fort complex and they flow during the months of Monsoon. The fort has a bronze equestrian statue of Chhatrapati Shivaji Maharaj, which was inaugurated by Jawaharlal Nehru in 1957. There are many trekking routes toward the fort and is visited by tourists as a day trip from Mahabaleshwar. The entry is free and the timings are from 8 AM to 6:30 PM.",
         location:"Gherapurandar, Maharashtra, India"
     },
     {
         id: 5,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/321/original/1553510082_Korigad_Fort.png?w=753&h=450&dpr=1.0",
-        title:"KORIGAD FORT",
-        description:"Snuggled 20 km away from Lonavala in Pune, Korigad Fort is one of the scenic spots showcasing the grandeur of Shivaji’s Legacy. This elegant edifice was built back in the 15th century and is established at a soaring height of 929 meters above the ground. The serenity of the site is maintained with the three elegant temples that are built on the notch of the peak.",
+        imge:"https://static.wixstatic.com/media/b4110a_b89e15b55da84b1d83857e3cd687b002~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_b89e15b55da84b1d83857e3cd687b002~mv2.jpg",
+        title:"Malhargad Fort ",
+        description:"Malhargad is a hill fort located in Sawsad, 30 kilometres from Pune. It is one of the most popular forts in Maharashtra, and one of the last forts to be built by the Marathas. The fort was built in the period between 1757 - 1760. The fort is the perfect place to be if you want to escape from your normal life. The fort offers a perfect site of the ghats and valleys. There are two temples constructed inside the fort, one for Lord Khandoba and another for Lord Mahadeva. From the fort, Jejuri and Parvati Hills can be sighted. The fort is open 24 hours and entry is free. ",
         location:"Lonavala, Maharashtra, India"
     },
     {
         id: 6,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/300/original/1553507239_shutterstock_707946589.jpg?w=753&h=450&dpr=1.0",
-        title:"LOHAGAD FORT",
-        description:"Built in the 16th century, the Lohagarh Fort is a military marvel that remained with the Marathas for the majority of time, except for the short 5 years when the Mughals captured it. Rising at an elevation of 1,033 meters above sea level, this fort is connected to the nearby Visapur Fort by a small range. Overlooking the Parvana Reservoir, the four gates of the fort are still standing upright and are in good shape and it is one of the popular forts in Maharashtra.Lohagarh Fort is accessible by foot through a beautiful and scenic trek. This trek is especially famous during the monsoons and if one takes a small diversion, the majestic Bhaja Caves can also be visited on the way. The trek to this Maharashtra fort is just 7 kilometers one way, making it perfect for first time trekkers. A tar road also goes all the way up to the fort and is accessible by motor vehicles.",
+        imge:"https://static.wixstatic.com/media/b4110a_da8f4d3183bb414b9d5996962a57d2bd~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_da8f4d3183bb414b9d5996962a57d2bd~mv2.jpg",
+        title:"Lohagad Fort",
+        description:"Lohagad's name means ‘the iron fort’. It is close to the hill station of Lonavala and 52 Kilometres from Pune. The fort has been occupied by various dynasties including Chalukyas, Rashtrakukas, Yadavas, Bahamanis, Nizams, Marathas and the Mughals. Chhatrapati Shivaji Maharaj captured the fort in 1648 but was forced to surrender it in 1665. The Maratha Emperor took the fort back from the Mughals in 1670. The fort is best for trekking, especially during monsoons due to its scenic beauty and trekking route. From the top, one can also view the Parvana Reservior. It is also interconnected to the nearby Visapur fort. If you want, you can visit both the forts. One can also take a detour towards the Bhaja Caves.  The fort entry timing is from 9 AM to 6 PM and the entry is free.",
+        location:"Khandala, Maharashtra, India"
+    },
+    {
+        id: 7,
+        imge:"https://static.wixstatic.com/media/b4110a_522aaa2f92794dfa926d94baa6f6dfc3~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_522aaa2f92794dfa926d94baa6f6dfc3~mv2.jpg",
+        title:"Kolaba Fort ",
+        description:"Located in Alibaug, the 300-year-old monument is one of the best beach forts to visit in Maharashtra. The fort was used as a military fortification during the reign of Shivaji. The fort was used as a naval station for launching attacks against the British. You can take the long road route to Alibaug or you can choose a jetty/ferry to reach Alibaug from The Getaway Of  India. If you take the ferry or jetty, you can enjoy the calm waters en route to Alibaug. The timings are from 6 AM to 6 PM and the entry fee is ₹5. ",
+        location:"Khandala, Maharashtra, India"
+    },
+    {
+        id: 8,
+        imge:"https://static.wixstatic.com/media/b4110a_598620b62a644aa6bafe16a457b84f64~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_598620b62a644aa6bafe16a457b84f64~mv2.jpg",
+        title:"Tikona Fort",
+        description:"The name Tikona comes from the triangular shape of the fort. It is one of the most popular forts in Maharashtra for trekkers. The fort is situated at the height of 1107 metres and consists of many magnificent caves. The fort has narrow steps and only one person can climb a step at a time. The base village of the fort is the Tikona peth which is 26 Kilometres from Kamshet. The fort offers a wonderful view of the mountains. The Trimbakeshwar Temple is inside the fort. The fort was captured by the Marathas from the Nizam in 1657 and was surrendered to the Mughals in 1665. It was recaptured again by the Marathas and then the British captured it in 1818. The fort timings are from 8 AM to 6 PM and the entry is free. ",
+        location:"Khandala, Maharashtra, India"
+    },
+    {
+        id: 9,
+        imge:"https://static.wixstatic.com/media/b4110a_5399b1e8f3b445c0a501093613a8d59f~mv2.jpg/v1/fill/w_925,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b4110a_5399b1e8f3b445c0a501093613a8d59f~mv2.jpg",
+        title:"Tung Fort",
+        description:"Tung Fort is another popular fort in Maharashtra that overlooks Pawna Lake. The alternate name ‘Kathingad’ means difficult in Marathi, which itself shows how difficult it is to trek the fort. However, trekking the fort is especially worth it since you can get a spectacular view of Pawna Lake. You can visit the Tungi Devi Temple and Ganpati Temple. You can visit the fort all day and the entry is free.  Lohagad's name means ‘the iron fort’. It is close to the hill station of Lonavala and 52 Kilometres from Pune. The fort has been occupied by various dynasties including Chalukyas, Rashtrakukas, Yadavas, Bahamanis, Nizams, Marathas and the Mughals. Chhatrapati Shivaji Maharaj captured the fort in 1648 but was forced to surrender it in 1665. The Maratha Emperor took the fort back from the Mughals in 1670. The fort is best for trekking, especially during monsoons due to its scenic beauty and trekking route. From the top, one can also view the Parvana Reservior. It is also interconnected to the nearby Visapur fort. If you want, you can visit both the forts. One can also take a detour towards the Bhaja Caves.  The fort entry timing is from 9 AM to 6 PM and the entry is free.",
         location:"Khandala, Maharashtra, India"
     },
 ]
 
 const Explore_TITLE = "Explore"
-const Explore = [
-    {
-        id: 1,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/310/original/1553508482_shutterstock_1180915588.jpg?w=753&h=450&dpr=1.0",
-        title:"SINHAGAD FORT",
-    },
-    {
-        id: 2,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/330/original/1553511158_shutterstock_663979489.jpg?w=753&h=450&dpr=1.0",
-        title:"RAJGAD FORT",
-    },
-    {
-        id: 3,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/311/original/1553508706_shutterstock_1197006376.jpg?w=753&h=450&dpr=1.0",
-        title: "PRATAPGAD FORT",
-    },
-    {
-        id: 4,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/325/original/1553510675_shutterstock_1282571473.jpg?w=753&h=450&dpr=1.0",
-        title:"PURANDAR FORT",
-    },
-    {
-        id: 5,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/321/original/1553510082_Korigad_Fort.png?w=753&h=450&dpr=1.0",
-        title:"KORIGAD FORT",
-    },
-    {
-        id: 6,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/300/original/1553507239_shutterstock_707946589.jpg?w=753&h=450&dpr=1.0",
-        title:"LOHAGAD FORT",
-    },
-    {
-        id: 7,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/310/original/1553508482_shutterstock_1180915588.jpg?w=753&h=450&dpr=1.0",
-        title:"SINHAGAD FORT",
-    },
-    {
-        id: 8,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/330/original/1553511158_shutterstock_663979489.jpg?w=753&h=450&dpr=1.0",
-        title:"RAJGAD FORT",
-    },
-    {
-        id: 9,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/311/original/1553508706_shutterstock_1197006376.jpg?w=753&h=450&dpr=1.0",
-        title: "PRATAPGAD FORT",
-    },
-    {
-        id: 10,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/325/original/1553510675_shutterstock_1282571473.jpg?w=753&h=450&dpr=1.0",
-        title:"PURANDAR FORT",
-    },
-    {
-        id: 11,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/321/original/1553510082_Korigad_Fort.png?w=753&h=450&dpr=1.0",
-        title:"KORIGAD FORT",
-    },
-    {
-        id: 12,
-        imge:"https://media2.thrillophilia.com/images/photos/000/149/300/original/1553507239_shutterstock_707946589.jpg?w=753&h=450&dpr=1.0",
-        title:"LOHAGAD FORT",
-    },
-]
 
 
 export{
     Hill_Forts,
     HEAD_TITLE,
-    Explore_TITLE,
-    Explore
+    Explore_TITLE
 }

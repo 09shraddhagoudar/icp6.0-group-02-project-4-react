@@ -8,11 +8,13 @@ import HillFortsImage from './oth-image.jpg';
 import SeaFortsImage from './../SeaForts/seaimage.jpg';
 import ForestFortsImage from './../ForestForts/forest-image.jpg';
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 
 function HillForts() {
   return (
     <div>
+      <ScrollToTop/>
       <Navbar />
       <div className='hill-head'>
         <div className='container'>
@@ -36,7 +38,7 @@ function HillForts() {
           <div className='d-flex justify-content-around flex-wrap my-4'>{
             Hill_Forts.map((project, index) => {
               const { id, imge, title, description, location } = project;
-              return (<FortsTypeCard id={id} imge={imge} title={title} description={description} location={location} key={index} />);
+              return (<FortsTypeCard id={id} imge={imge} title={title} description={description} location={location} key={index} link="/hillfortsmore" />);
             })
           }
           </div>
@@ -47,9 +49,17 @@ function HillForts() {
         <div className='container'>
           <h1 className='font fw-semibold m-3 text-center'>{Explore_TITLE}</h1>
           <div className='d-flex img-con p-4 m-2'>{
-            Explore.map((img, index) => {
+            Hill_Forts.map((img, index) => {
               const { id, imge, title } = img;
-              return (<ExploreCard id={id} imge={imge} title={title} key={index} />);
+              return (<ExploreCard id={id} imge={imge} title={title} key={index} link="/hillfortsmore" />);
+            })}{
+            Hill_Forts.map((img, index) => {
+              const { id, imge, title } = img;
+              return (<ExploreCard id={id} imge={imge} title={title} key={index} link="/hillfortsmore" />);
+            })}{
+            Hill_Forts.map((img, index) => {
+              const { id, imge, title } = img;
+              return (<ExploreCard id={id} imge={imge} title={title} key={index} link="/hillfortsmore" />);
             })
           }
           </div>
@@ -72,10 +82,12 @@ function HillForts() {
                 <p className='text-white fw-semibold fs-1 position-absolute top-50 start-50 translate-middle'>Sea Forts</p>
               </div>
             </Link>
+            <Link to="/seaforts" >
             <div className='position-relative h-100 shadow-sm'>
               <img src={ForestFortsImage} className='oth-img border border-black'/>
               <p className='text-white fw-semibold fs-1 position-absolute top-50 start-50 translate-middle'>Forest Fort</p>
             </div>
+            </Link>
           </div>
         </div>
       </div>

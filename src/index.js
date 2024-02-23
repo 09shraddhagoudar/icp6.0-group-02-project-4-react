@@ -12,7 +12,9 @@ import HillForts from './views/HillForts/HillForts';
 import HillFortsMore from './views/HillFortsMore/HillFortsMore';
 import SeaForts from './views/SeaForts/SeaForts';
 import ForestForts from './views/ForestForts/ForestForts';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import SeaFortsMore from './views/SeaFortsMore/SeaFortsMore';
+import ForestFortsMore from './views/ForestFortsMore/ForestFortsMore';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -30,12 +32,20 @@ const router = createBrowserRouter([
     element: <HillFortsMore/>
   },
   {
+    path: "/seafortsmore",
+    element: <SeaFortsMore/>
+  },
+  {
     path: "/seaforts",
     element: <SeaForts/>
   },
   {
     path: "/forestforts",
     element: <ForestForts/>
+  },
+  {
+    path: "/forestfortsmore",
+    element: <ForestFortsMore/>
   },
   {
     path: "/services",
