@@ -74,7 +74,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
-  
+  .card:hover{
+    box-shadow: 1px 1px grey;
+  }
   .card img {
     max-width: 100%;
     border-radius: 5px;
