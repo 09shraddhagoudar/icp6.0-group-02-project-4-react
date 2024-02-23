@@ -23,12 +23,12 @@ function About() {
   };
 
   return (
-    <div style={{ backgroundColor: '#ffc0cb', minHeight: '100vh' }}> {/* Set background color to pink */}
+    <div style={{ backgroundColor: '#ffff', minHeight: '100vh' }}> {/* Set background color to pink */}
         <Navbar />
-        <h1 style={{textAlign: 'center', margin: '50px 0', fontSize: '70px'}}>About</h1> {/* Reduced top margin */}
+        <h1 style={{textAlign: 'center', margin: '50px 0', fontSize: '40px'}}>About US</h1> {/* Reduced top margin */}
         
         {/* Add some information */}
-        <div style={{ margin: '0 auto', maxWidth: '800px', textAlign: 'center' }}>
+        <div style={{ margin: '0 auto', maxWidth: '800px', textAlign: 'center', fontFamily:'cursive' }}>
           <p>Maharashtra Forts Explore offers full-throttle trekking experiences within a limited budget. We promote trekking (mountain sport) to every individual. Our aim is to explore each and every fort and trekking spot in Maharashtra.</p>
         </div>
 
@@ -40,7 +40,7 @@ function About() {
         </div>
 
         {/* Leave a Comment section */}
-        <div style={{ margin: '50px auto', maxWidth: '600px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', padding: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+        <div style={{ backgroundColor:'#41423' ,margin: '50px auto', maxWidth: '600px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', padding: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
           <h2 style={{ marginBottom: '20px' }}>Leave a Comment</h2>
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <textarea

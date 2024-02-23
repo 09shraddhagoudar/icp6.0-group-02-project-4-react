@@ -8,7 +8,7 @@ function Card(props) {
     maxWidth: '400px',
     margin: '20px',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    backgroundColor: props.color || '#ff0000', // Default color is red (#ff0000)
+    backgroundColor: props.color || '#e3b76a', // Default color is red (#ff0000)
   };
 
   const titleStyle = {
