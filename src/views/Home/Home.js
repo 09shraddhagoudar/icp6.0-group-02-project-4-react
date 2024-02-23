@@ -11,6 +11,7 @@ import Image7 from "./fun.png";
 import Image8 from "./idea.png";
 import Image9 from "./light.png";
 import Image10 from "./book.png";
+import Image11 from "./panhala.png";
 
 
 
@@ -28,7 +29,7 @@ function Home() {
         <h1 className='subheading'>Must Visit This...💜💜</h1>
         <div className="card-row">
 
-          <div className="card">
+          <div className="card" style={{width:'300px', height:'450px'}}>
             <img src={Image1} alt="purandar" />
             <h2>Purandar</h2>
             <p>Purandar Fort is known as the birthplace of Chhatrapati Sambhaji Maharaj, the son of Chhatrapati Shivaji Maharaj. The fort
@@ -36,22 +37,22 @@ function Home() {
             <button>Read More</button>
           </div>
 
-          <div className="card">
+          <div className="card" style={{width:'300px', height:'450px'}} >
             <img src={Image2} alt=" Shanivarwada" />
             <h2> Shanivarwada</h2>
             <p>Shanivarwada Fort is a popular Fort in the city of Pune located in Maharashtra. It has great historic significance as it was
               the seat of the Marathas from 1730 to 1818.</p>
             <button>Read More</button>
           </div>
-          <div className="card">
-            <img src={Image2} alt=" Shanivarwada" />
-            <h2> Shanivarwada</h2>
-            <p>Shanivarwada Fort is a popular Fort in the city of Pune located in Maharashtra. It has great historic significance as it was
-              the seat of the Marathas from 1730 to 1818.</p>
+          <div className="card"  style={{width:'300px', height:'450px'}}>
+            <img src={Image11} alt=" Panhala" />
+            <h2> Panhala</h2>
+            <p>Panhala fort (also known as Panhalgad and Panhalla (literally "the home of serpents")), is located in Panhala, 
+              20 kilometres northwest of Kolhapur in Maharashtra, India.</p>
             <button>Read More</button>
           </div>
 
-          <div className="card">
+          <div className="card"  style={{width:'300px', height:'450px'}}>
             <img src={Image3} alt="maharashtra fort" />
             <h2>Lohagadh Fort</h2>
             <p>Located in Lonavala, one of the most aesthetically appealing places near Pune, Lohagadh Fort is a beautiful piece of architecture.
