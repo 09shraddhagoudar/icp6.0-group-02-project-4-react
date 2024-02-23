@@ -1,0 +1,10 @@
+.hewi{
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+}
+.hewi:hover{
+    transform: scale(1.09);
+    animation-direction: alternate;
+    transition: 0.5s;
+}

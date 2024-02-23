@@ -5,10 +5,8 @@
     color: white;
 }
 .text-white{
-    font-weight: 200;
-
+    font-weight: 300;
 }
 .text-white:hover{
     color: blue;
-   
 }
