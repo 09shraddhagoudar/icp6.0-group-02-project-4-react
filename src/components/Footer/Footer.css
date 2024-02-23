@@ -1,6 +1,7 @@
-.Footer{
-    padding: 10px;
-    text-align: center;
-    background-color: #8f2407;
-    font-size: 20px;
+.har-dec{
+    text-decoration: none;
+    color: white;
+}
+.har-dec:hover{
+    color: brown;
 }
