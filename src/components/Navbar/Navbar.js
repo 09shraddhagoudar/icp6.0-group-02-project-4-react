@@ -4,23 +4,49 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className="Navbar shadow fs-5 d-flex justify-content-between text-white">
-        <div className="fs-2 fw-bold">Fortress Tours </div>
-        <div className="nabar-menu">
-            <Link to="/" className="text-white text-decoration-none mx-4">Home</Link>
-            <Link to="/hillforts" className="text-white text-decoration-none mx-4 dropdown-toggle" data-bs-toggle="dropdown">Forts</Link>
-              <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item fs-5" to="/hillforts">Hill Forts</Link></li>
-                  <li><Link className="dropdown-item fs-5" to="/seaforts">Sea Forts</Link></li>
-                  <li><Link className="dropdown-item fs-5" to="/forestforts">Forest Forts</Link></li>
-              </ul>
-            <Link to="/services" className="text-white text-decoration-none mx-4">Services</Link>
-            <Link to="/about" className="text-white text-decoration-none mx-4">About</Link>
-            <Link to="/contact" className="text-white text-decoration-none mx-4">Contact</Link>
-            <Link to="/login" className="text-white text-decoration-none mx-4">Login</Link>
-            <Link to="/bookTour" className="text-white text-decoration-none mx-4">BookTour</Link>
+    <nav class="navbar navbar-expand-lg bg-harshal p-2 border border-bottom border-black shadow-sm">
+        <div class="container-fluid mx-5">
+            <a class="navbar-brand ms-md-5 ms-md-0 fs-2" href="#">Foodzie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <Link to="/" class="nav-link fs-5 mx-2" aria-current="page" >Home</Link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <Link to="/hillforts" class="nav-link dropdown-toggle mx-2 fs-5" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Forts
+                        </Link>
+                        <ul class="dropdown-menu">
+                            <li><Link to="/hillforts" class="dropdown-item fs-5">Hill Forts</Link></li>
+                            <li><Link to="/seaforts" class="dropdown-item fs-5">Sea Forts</Link></li>
+                            <li><Link to="/forestforts" class="dropdown-item fs-5">Forest Forts</Link></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <Link to="/services" class="nav-link mx-2 fs-5">Services</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link to="/about" class="nav-link mx-2 fs-5">About</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link to="/contact" class="nav-link mx-2 fs-5">Contact</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link to="/login" class="nav-link mx-2 fs-5">Login/Register</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link to="/bookTour" class="nav-link mx-2 me-5 fs-5" >Book Tour</Link>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>)
+    </nav>
+    )
 }
 
 export default Navbar
