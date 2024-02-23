@@ -43,6 +43,13 @@ function Home() {
               the seat of the Marathas from 1730 to 1818.</p>
             <button>Read More</button>
           </div>
+          <div className="card">
+            <img src={Image2} alt=" Shanivarwada" />
+            <h2> Shanivarwada</h2>
+            <p>Shanivarwada Fort is a popular Fort in the city of Pune located in Maharashtra. It has great historic significance as it was
+              the seat of the Marathas from 1730 to 1818.</p>
+            <button>Read More</button>
+          </div>
 
           <div className="card">
             <img src={Image3} alt="maharashtra fort" />
