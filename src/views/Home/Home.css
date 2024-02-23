@@ -99,7 +99,7 @@
     display: block;
     padding: 10px;
     background-color:#e3b76a;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -109,6 +109,7 @@
   
   .card button:hover {
     background-color: #fdfcd4;
+    border: 1px solid rgba(163, 161, 161, 0.784);
   }
   .subpart{
     padding-bottom: 20px;
@@ -122,6 +123,12 @@
     width: 350px;
     border-radius: 10px;
 
+  }
+  .img-size:hover{
+    height: 290px;
+    width: 340px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px  grey;
   }
   .service-card{
      background-color: #da461d;
