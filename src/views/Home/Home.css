@@ -98,7 +98,7 @@
    
     display: block;
     padding: 10px;
-    background-color: #8f2407;
+    background-color:#e3b76a;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -108,7 +108,7 @@
   }
   
   .card button:hover {
-    background-color: #da461d;
+    background-color: #fdfcd4;
   }
   .subpart{
     padding-bottom: 20px;
