@@ -3,6 +3,8 @@ import { useState } from "react";
 import Navbar from "../../components/Navbar/Navbar"
 import "./Login.css"
 import Footer from '../../components/Footer/Footer';
+import signup from "../signup/signup"
+
 
  function Login() {
 
@@ -12,13 +14,17 @@ import Footer from '../../components/Footer/Footer';
 	const [password, setPassword] = useState("");
 	const [submitted, setSubmitted] = useState(false);
 	const [error, setError] = useState(false);
+	
 
 	const handleName = (e) => {
+		
 		setName(e.target.value);
 		setSubmitted(false);
 	};
+	console.log(name)
 
 	const handleEmail = (e) => {
+		console.log(email)
 		setEmail(e.target.value);
 		setSubmitted(false);
 	};
@@ -70,6 +76,9 @@ import Footer from '../../components/Footer/Footer';
 	
 
 	return (
+
+	
+		
 	
 		<div className="form">
 			<Navbar/>
@@ -113,7 +122,7 @@ import Footer from '../../components/Footer/Footer';
 				<button onClick={handleSubmit} className="btn" type="submit">
 					Log in
 				</button>
-				<p>Don't have an account?</p>
+				<p>Don't have an account?</p><div><signup/></div>
 				
 			</form><br/><br/>
 			<Footer />
@@ -125,4 +134,5 @@ import Footer from '../../components/Footer/Footer';
 
 
 
-export default Login
+export default Login;
+

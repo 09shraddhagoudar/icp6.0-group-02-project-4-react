@@ -1,6 +1,6 @@
 .page-heading{
     text-align: center;
-    margin: 50px 0px;
+    margin:20px;
     font-size: 30px;
     margin-bottom: 50px;
 
@@ -8,15 +8,16 @@
 .container{
     background-color: antiquewhite;
     height: 350px;
-    width: 270px;
+    width: 300px;
 }
 .input-box{
-    width: 190px;
+    width: 210px;
     height: 35px;
     border-radius: 10px;
     margin: 10px;
     margin-left: 25px;
     text-align: center;
+    border: 1px solid brown;
 
 }
 .btn{
