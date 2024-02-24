@@ -12,6 +12,7 @@ import Image8 from "./idea.png";
 import Image9 from "./light.png";
 import Image10 from "./book.png";
 import Image11 from "./panhala.png";
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,7 +24,8 @@ function Home() {
       <header className="head">
         <h1>Welcome to Fort Tour</h1>
         <p>Explore the history and beauty of ancient forts</p>
-        <button className='explore-more-btn d-block mx-auto'>Explore..</button>
+        <Link to="/hillforts">
+        <button className='explore-more-btn d-block mx-auto'>Explore..</button></Link>
       </header>
 
       <h1 className='subheading'>Must Visit This...💜💜</h1>
@@ -34,7 +36,7 @@ function Home() {
           <h2>Purandar</h2>
           <p>Purandar Fort is known as the birthplace of Chhatrapati Sambhaji Maharaj, the son of Chhatrapati Shivaji Maharaj. The fort
             of Purandhar stands at 4,472 ft.</p>
-          <button>Read More</button>
+          <button><Link to="/hillfortsmore" className='text-decoration-none'>Read More</Link></button>
         </div>
 
         <div className="card" style={{ width: '300px', height: '450px' }} >
@@ -42,14 +44,14 @@ function Home() {
           <h2> Shanivarwada</h2>
           <p>Shanivarwada Fort is a popular Fort in the city of Pune located in Maharashtra. It has great historic significance as it was
             the seat of the Marathas from 1730 to 1818.</p>
-          <button>Read More</button>
+          <button><Link to="/hillfortsmore" className='text-decoration-none'>Read More</Link></button>
         </div>
         <div className="card" style={{ width: '300px', height: '450px' }}>
           <img src={Image11} alt=" Panhala" />
           <h2> Panhala</h2>
           <p>Panhala fort (also known as Panhalgad and Panhalla (literally "the home of serpents")), is located in Panhala,
             20 kilometres northwest of Kolhapur in Maharashtra, India.</p>
-          <button>Read More</button>
+          <button><Link to="/hillfortsmore" className='text-decoration-none'>Read More</Link></button>
         </div>
 
         <div className="card" style={{ width: '300px', height: '450px' }}>
@@ -57,7 +59,7 @@ function Home() {
           <h2>Lohagadh Fort</h2>
           <p>Located in Lonavala, one of the most aesthetically appealing places near Pune, Lohagadh Fort is a beautiful piece of architecture.
             It is a fort that was captured by Shivaji Maharaj and then by the Mughals.  </p>
-          <button>Read More</button>
+          <button><Link to="/hillfortsmore" className='text-decoration-none'>Read More</Link></button>
         </div>
 
 
