@@ -5,10 +5,8 @@
     margin-bottom: 50px;
 
 }
-.container{
-    background-color:41423fee;
-    height: 350px;
-    width: 300px;
+.login{
+    width: 370px;
 }
 .input-box{
     width: 210px;

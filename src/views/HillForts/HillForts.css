@@ -23,6 +23,7 @@
 .img-con{
     overflow-x: scroll;
 }
+
 .img-con::-webkit-scrollbar{
     height: 5px;
 }
@@ -43,4 +44,8 @@
 }
 .position-relative:hover{
     transform: translateY(-10px);
+}
+.img-con-har{
+    display: flex;
+    overflow-x: scroll;
 }

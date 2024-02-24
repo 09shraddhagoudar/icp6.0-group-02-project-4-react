@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState } from "react";
-import Navbar from "../../components/Navbar/Navbar"
-import "./Login.css"
+import Navbar from "../../components/Navbar/Navbar";
 import Footer from '../../components/Footer/Footer';
-import signup from "../signup/signup"
+import "./Login.css"
+import signup from "../signup/signup";
+import { Link } from 'react-router-dom';
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 
  function Login() {
@@ -81,6 +83,7 @@ import signup from "../signup/signup"
 		
 	
 		<div className="form">
+			<ScrollToTop/>
 			<Navbar/>
 			<div>
 				<h1 className='page-heading'>Log in</h1>
@@ -92,7 +95,7 @@ import signup from "../signup/signup"
 				{successMessage()}
 			</div>
 
-			<form className='container'>
+			<form className='container shadow bg-white p-5 login'>
 				<input
 					onChange={handleName}
 					className="input-box"
@@ -122,7 +125,7 @@ import signup from "../signup/signup"
 				<button onClick={handleSubmit} className="btn" type="submit">
 					Log in
 				</button>
-				<p>Don't have an account?</p><div><signup/></div>
+				<Link to="/signup"><p>Don't have an account?</p></Link>
 				
 			</form><br/><br/>
 			<Footer />

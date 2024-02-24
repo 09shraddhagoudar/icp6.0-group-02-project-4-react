@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import Card from '../../components/Card/Card'; // Importing your Card component
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 function About() {
   // Define an array of card data
@@ -23,9 +24,11 @@ function About() {
   };
 
   return (
-    <div style={{ backgroundColor: '#ffff', minHeight: '100vh' }}> {/* Set background color to pink */}
+    <div style={{ minHeight: '100vh' }}> {/* Set background color to pink */}
+    <ScrollToTop/>
         <Navbar />
-        <h1 style={{textAlign: 'center', margin: '50px 0', fontSize: '40px'}}>About US</h1> {/* Reduced top margin */}
+        <div className='border shadow' style={{margin: '30px 250px'}}>
+        <h1 style={{textAlign: 'center', margin: '30px 0', fontSize: '40px'}}>About US</h1> {/* Reduced top margin */}
         
         {/* Add some information */}
         <div style={{ margin: '0 auto', maxWidth: '800px', textAlign: 'center', fontFamily:'cursive' }}>
@@ -40,7 +43,7 @@ function About() {
         </div>
 
         {/* Leave a Comment section */}
-        <div style={{ backgroundColor:'#41423' ,margin: '50px auto', maxWidth: '600px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', padding: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+        <div style={{ backgroundColor:'#f3f5f4' ,margin: '50px auto', maxWidth: '600px', textAlign: 'center', border: '1px solid #ccc', borderRadius: '8px', padding: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
           <h2 style={{ marginBottom: '20px' }}>Leave a Comment</h2>
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <textarea
@@ -52,7 +55,7 @@ function About() {
             <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>Submit</button>
           </form>
         </div>
-        
+        </div>
         <Footer />
     </div>
   );

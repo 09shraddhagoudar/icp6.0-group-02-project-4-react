@@ -9,6 +9,7 @@ import SeaFortsImage from './../SeaForts/seaimage.jpg';
 import ForestFortsImage from './../ForestForts/forest-image.jpg';
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
+import FavoriteCard from '../../components/FavoriteCard/FavoriteCard';
 
 
 function HillForts() {
@@ -88,6 +89,18 @@ function HillForts() {
               <p className='text-white fw-semibold fs-1 position-absolute top-50 start-50 translate-middle'>Forest Fort</p>
             </div>
             </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-dark-subtle'>
+        <div className='container'>
+          <h1 className='font fw-semibold m-3 text-center'>Your Favorite Fort</h1>
+          <div className='img-con-har'>{
+            Hill_Forts.map((project, index) => {
+              const { id, imge, title, description } = project;
+              return (<FavoriteCard id={id} imge={imge} title={title} description={description} link="/hillfortsmore" />);
+            })}
           </div>
         </div>
       </div>

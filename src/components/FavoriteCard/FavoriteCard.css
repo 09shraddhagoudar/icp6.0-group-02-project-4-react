@@ -1,0 +1,18 @@
+.w-35{
+    width: 310px;
+}
+a:hover{
+    color: black;
+}
+.link:hover{
+    color: black;
+}
+button{
+    background-color: #e3b76a;
+}
+button:hover{
+    background-color: #fdfcd4;
+}
+.card-har{
+    background-color: #fff;
+}

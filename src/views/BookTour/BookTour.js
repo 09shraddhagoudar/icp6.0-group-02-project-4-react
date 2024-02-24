@@ -13,7 +13,7 @@ function BookTour() {
   return (
     <div>
         <Navbar />
-        <h1 style={{textAlign: 'center',margin: '130px',fontSize: '70px'}}> Booking Now! </h1>
+        <h1 className='text-center mt-5'> Booking Now! </h1>
         <form className='form-container'>
           <div>
             <p>Name is:{name}</p>

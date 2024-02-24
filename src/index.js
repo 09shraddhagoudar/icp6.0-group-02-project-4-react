@@ -6,6 +6,7 @@ import Home from './views/Home/Home';
 import Contact from './views/Contact/Contact';
 import About from './views/About/About';
 import Services from './views/Services/Services';
+import Signup from './views/signup/signup';
 import Login from './views/Login/Login';
 import BookTour from './views/BookTour/BookTour';
 import HillForts from './views/HillForts/HillForts';
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login/>
+  },
+  {
+    path: "/signup",
+    element: <Signup/>
   },
   {
     path: "/bookTour",
