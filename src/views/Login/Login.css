@@ -1,0 +1,58 @@
+.page-heading{
+    text-align: center;
+    margin:20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+.container{
+    background-color:41423fee;
+    height: 350px;
+    width: 300px;
+}
+.input-box{
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 25px;
+    text-align: center;
+    border: 1px solid brown;
+
+}
+.btn{
+    background-color: rgb(153, 77, 77);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid brown;
+    margin: 10px auto;
+    padding: 5px;
+    display: block;
+    width: 150px;
+}
+.messages {
+    display: flex;
+    justify-content: center;
+}
+ 
+.error {
+    display: block;
+    color: red;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+.success {
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+}
+.check-box{
+    margin-left: 25px;
+}
+.pass{
+    color: red;
+}
