@@ -1,14 +1,15 @@
 .Navbar{
     padding: 12px 150px;
     align-items: center;
-    background-color: #8f2407;
+    background-color: #41423fee;
     color: white;
 }
+.bg-harshal{
+    background-color: #c4c5c6;
+}
 .text-white{
-    font-weight: 200;
-
+    font-weight: 300;
 }
 .text-white:hover{
     color: blue;
-   
 }

@@ -1,3 +1,5 @@
+const HEAD_TITLE = "Some Hill Forts in Maharashtra"
+
 const Hill_Forts = [
     {
         id: 1,
@@ -42,9 +44,11 @@ const Hill_Forts = [
         location:"Khandala, Maharashtra, India"
     },
 ]
-const HEAD_TITLE = "Some Hill Forts in Maharashtra"
+
+const Explore_TITLE = "Explore"
 
 export{
     Hill_Forts,
-    HEAD_TITLE
+    HEAD_TITLE,
+    Explore_TITLE
 }
