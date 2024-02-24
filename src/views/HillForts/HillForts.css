@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-.head{
+.hill-head{
     width: 100%;
     height: 55vh;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url(./image.jpg);
@@ -32,4 +32,15 @@
 .img-con::-webkit-scrollbar-thumb {
     border-radius: 100px;
     background-color: #ff004f;
+}
+.oth-img{
+    width: 400px;
+}
+.position-relative{
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.position-relative:hover{
+    transform: translateY(-10px);
 }
