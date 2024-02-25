@@ -29,11 +29,11 @@ const router = createBrowserRouter([
     element: <HillForts/>
   },
   {
-    path: "/hillfortsmore",
+    path: "/hillfortsmore/:id",
     element: <HillFortsMore/>
   },
   {
-    path: "/seafortsmore",
+    path: "/seafortsmore/:id",
     element: <SeaFortsMore/>
   },
   {
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
     element: <ForestForts/>
   },
   {
-    path: "/forestfortsmore",
+    path: "/forestfortsmore/:id",
     element: <ForestFortsMore/>
   },
   {
